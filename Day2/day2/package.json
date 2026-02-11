@@ -1,0 +1,17 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "OSAD 46",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "deploy": "deploy to gcp",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

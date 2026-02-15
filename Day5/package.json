@@ -1,22 +1,37 @@
 {
   "name": "day4",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect .",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "nodemon server.js",
+    "prod": "NODE_ENV=production nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@antfu/eslint-config": "^7.4.3",
-    "eslint": "^9.39.2",
-    "nodemon": "^3.1.11"
-  },
+  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.2.1"
+    "mongoose": "^9.2.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
   }
 }

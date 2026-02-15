@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "benzemaaaaa215151a",
+    "quantity": 50,
+    "category": "general"
+  },
+  {
+    "id": 3,
+    "name": "benzema",
+    "quantity": 20,
+    "category": "general"
+  },
+  {
+    "id": 4,
+    "name": "benzema",
+    "quantity": 20,
+    "category": "general"
+  },
+  {
+    "id": 4,
+    "name": "benzemaaaaa215151a",
+    "quantity": 20,
+    "category": "hem"
+  },
+  {
+    "id": 5,
+    "name": "el benz",
+    "quantity": 1,
+    "category": "general"
+  },
+  {
+    "id": 6,
+    "name": "el benz",
+    "quantity": 1,
+    "category": "general"
+  },
+  {
+    "id": 7,
+    "name": "el benz",
+    "quantity": 1,
+    "category": "general"
+  },
+  {
+    "id": 8,
+    "name": "el benz",
+    "quantity": 1,
+    "category": "general"
+  }
+]
